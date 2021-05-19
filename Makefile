@@ -12,7 +12,7 @@ shell: all
 	@echo "The ilo4_$(PATCHVER).fan.bin file can be used by the ilo4 toolbox"
 	@echo "to patch a machine running ILO4 v2.50."
 	@echo "An unmodified version of 2.50 has been downloaded (outside of the"
-	@echo "container, and can be used to downgrade an existing machine through"
+	@echo "container), and can be used to downgrade an existing machine through"
 	@echo "the machine's ILO web interface.\n"
 	@docker run --rm -it fan bash
 
